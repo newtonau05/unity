@@ -5,7 +5,7 @@ using UnityEngine;
 public class CubeMovement : MonoBehaviour
 {
     Transform tf;
-    float tumblingDuration = 0.2f;
+    public float tumblingDuration = 0.2f;
     bool isTumbling = false;
 
     private void Awake()
